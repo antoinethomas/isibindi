@@ -1,4 +1,22 @@
 Isibindi::Application.routes.draw do
+  resources :users
+
+  get "user/index"
+
+  get "user/new"
+
+  get "user/create"
+
+  get "user/delete"
+
+  get "register/index"
+
+  get "register/new"
+
+  get "register/delete"
+
+  get "home_page/index"
+
   get "hello/index"
 
   get "isbindi/index"
@@ -51,8 +69,8 @@ Isibindi::Application.routes.draw do
   #   end
 
   # You can have the root of your site routed with "root"
-  # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+  # just remember to delete public/index.html_old.
+  root :to => 'home_page#index'
 
   # See how all your routes lay out with "rake routes"
 
