@@ -5,3 +5,12 @@ fr:
   hello: "Hello world"
   slogan: "Faites ce que vous voulez!"
   discover: "Découvrez"
+  home: "Home"
+  help: "Aide"
+  signup: "Rejoindre"
+  name: "Prénom"
+  surname: "Nom"
+  email: "email"
+  password: "Mot de passe"
+  location: "Lieu"
+
